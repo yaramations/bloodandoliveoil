@@ -28,6 +28,19 @@ label start: # The game starts here.
 
 #STORY STARTS
 
+# Raegan's Letter
+lion "Dear Carmen Strahd,"
+lion "I wish you my warm regards from the new transcontinential railroad."
+lion "Despite not seeing you for years, I appreciate your invitation and look forward to our reunion."
+lion "These past few months have made me bitter, and the sting of the cold brings an omen of uncertianty."
+lion "In the dawn of this new American frontier, I'm afraid I will become outshone by far more suitable business partners."
+lion "You, on the other hand, were always the more suitable businessman."
+lion "I wish I was quicker to discover the profitability of oil in this economy."
+lion "And oil made from olives no less...what a genius you were!"
+lion "This genius of yours has never truly surprised me though, just as one could have easily predicted your early retirement."
+lion "But alas, we have much more to speak about in person. I will await our next meeting to disclose my lates expidentures."
+lion "Sincerely, Raegan Williams"
+
 # Prologue
     # show cat1 sample.png #Strahd in his room
     n "A knock can be heard at the door"
