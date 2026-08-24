@@ -29,11 +29,11 @@ label start: # The game starts here.
 #STORY STARTS
 
 # Prologue
-    show cat1 sample.png #Strahd in his room
+    # show cat1 sample.png #Strahd in his room
     n "A knock can be heard at the door"
     cat1 "Come in!"
 
-    show lion sample.png #Raegan walks in
+    # show lion sample.png #Raegan walks in
 
     cat1 "By golly, it's you!"
     cat1 "So tell me, how have you been, old friend? Was the train kind to you? Can I have Ethel get you anything?"
@@ -57,7 +57,7 @@ label start: # The game starts here.
     n "The conversation has seemed to attrack the attention of a nearby listner"
     cat1 "Hold on, I think we have an eavesdropper"
 
-    show cat2 sample.png #Mason walks in
+    # show cat2 sample.png #Mason walks in
 
     cat1 "You’re not supposed to be drinking that, Mason!" #Sound effect for hiss
 
@@ -65,9 +65,9 @@ label start: # The game starts here.
     cat1 "Absolutely not, put that down young man!"
     cat2 "You just don’t understand..."
 
-    hide cat2
-    hide cat1
-    hide lion
-    hide ostrich
+    #hide cat2
+    #hide cat1
+    #hide lion
+    #hide ostrich
 
     return #Game ends
