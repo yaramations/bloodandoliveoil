@@ -1,5 +1,5 @@
 ﻿#Transitions defined 
-define fade = Fade(0.5, 1, 0.5) #Transition to prologue
+define fade = Fade(0.5, 3, 0.5) #Transition to prologue
 
 # CHARACTERS DEFINED
 define cat1 = Character("Carmen Strahd")
@@ -11,7 +11,7 @@ define hyena = Character("Elizabeth Williams")
 define crow = Character("Officer")
 define salamander = Character("Barron Rogers")
 define pigeon = Character("I FORGOR HIS NAME")
-define ostrich = Character("Ethel Foster")
+define ostrich = Character("Ethel Crosswire")
 define n = Character("") #narrarator
 
 
@@ -20,7 +20,7 @@ label start: # The game starts here.
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-    scene bg room
+scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
@@ -30,6 +30,7 @@ label start: # The game starts here.
 #STORY STARTS
 
 # Raegan's Letter
+play music "/audio/bgost/249_Steampunk_Station.mp3"
 # CG of train
 lion "Dear Carmen Strahd,"
 lion "I wish you my warm regards from the new transcontinential railroad."
@@ -43,7 +44,9 @@ lion "This genius of yours has never truly surprised me though, just as one coul
 lion "But alas, we have much more to speak about in person. I will await our next meeting to disclose my lates expidentures."
 lion "Sincerely, Raegan Williams"
 
+play music "/audio/bgost/267_Court_of_the_Count.mp3"
 with fade #transitions to prologue
+
 
 # Prologue
     # show cat1 sample.png #Strahd in his room
@@ -56,7 +59,7 @@ cat1 "By golly, it's you!"
 cat1 "So tell me, how have you been, old friend? Was the train kind to you? Can I have Ethel get you anything?"
     
 lion "Ah, well I suppose it went as well as any journey could go. My wife Elizabeth found the journey rather uneventful, but you know how she can get. "
-cat1"I still remember my first train ride up the East Coast. My back, how it ached, on and on for nine hours! Thank God the train had plenty of liquor or I fate may not have been so kind to me!"
+cat1"I still remember my first train ride up the East Coast. My back, how it ached, on and on for nine hours! Thank God the train had plenty of liquor or fate may not have been so kind to me!"
 lion "I’d reckon so, not a journey for the lightweight to say the least."
 lion "Besides the point, why did you ask to meet up with me so soon?"
 cat1 "I need to … make arrangements with you before the retirement party tomorrow."

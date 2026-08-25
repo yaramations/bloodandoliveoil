@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 46: expected statement.
-    fade
-         ^
+File "game/options.rpy", line 82: invalid syntax
+    with fade
+    ^^^^
+
+File "game/options.rpy", line 85: invalid syntax
+    with fade
+    ^^^^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Mon Aug 24 23:29:32 2026
+Tue Aug 25 13:20:01 2026

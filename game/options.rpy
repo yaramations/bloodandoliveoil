@@ -77,13 +77,11 @@ define config.exit_transition = dissolve
 define config.intra_transition = dissolve
 
 
+define fade = Fade(0.5, 2, 0.5) #Transition to prologue
 ## A transition that is used after a game has been loaded.
-
 define config.after_load_transition = None
 
-
 ## Used when entering the main menu after the game has ended.
-
 define config.end_game_transition = None
 
 
