@@ -1,5 +1,5 @@
 ﻿#Transitions defined 
-define fade = Fade(0.5, 3, 0.5) #Transition to prologue
+define fade = Fade(0.5, 4, 0.5) #Transition to prologue
 
 # CHARACTERS DEFINED
 define cat1 = Character("Carmen Strahd")
@@ -38,10 +38,12 @@ lion "Despite not seeing you for years, I appreciate your invitation and look fo
 lion "These past few months have made me bitter, and the sting of the cold brings an omen of uncertianty."
 lion "In the dawn of this new American frontier, I'm afraid I will become outshone by far more suitable business partners."
 lion "You, on the other hand, were always the more suitable businessman."
-lion "I wish I was quicker to discover the profitability of oil in this economy."
-lion "And oil made from olives no less...what a genius you were!"
-lion "This genius of yours has never truly surprised me though, just as one could have easily predicted your early retirement."
-lion "But alas, we have much more to speak about in person. I will await our next meeting to disclose my lates expidentures."
+lion "I wish I was quicker to discover the profitability of oil in this economy, and I'm grateful you still think of me as your longtime companion."
+lion "You were always considered the savant between the two of us. Utilizing oil made out of olives to power the Industrial Revolution? Genius!"
+lion "This shrewdness of yours has never truly surprised me though, just as one could have easily predicted your early retirement."
+lion "Not many can pass on the business at only 42 years old."
+lion "But alas, we have much more to speak about in person. I will await our next meeting to disclose my latest expidentures."
+lion "In the meantime, I bid you well."
 lion "Sincerely, Raegan Williams"
 
 play music "/audio/bgost/267_Court_of_the_Count.mp3"
@@ -50,6 +52,7 @@ with fade #transitions to prologue
 
 # Prologue
     # show cat1 sample.png #Strahd in his room
+play sound "/audio/soundeffects/soundscrate-wood-door-knock-outside-twice-01.mp3"
 n "A knock can be heard at the door"
 cat1 "Come in!"
 
@@ -62,9 +65,10 @@ lion "Ah, well I suppose it went as well as any journey could go. My wife Elizab
 cat1"I still remember my first train ride up the East Coast. My back, how it ached, on and on for nine hours! Thank God the train had plenty of liquor or fate may not have been so kind to me!"
 lion "I’d reckon so, not a journey for the lightweight to say the least."
 lion "Besides the point, why did you ask to meet up with me so soon?"
-cat1 "I need to … make arrangements with you before the retirement party tomorrow."
+cat1 "I need to… make arrangements with you before the retirement party tomorrow."
 lion "In what way?"
 
+play sound "/audio/soundeffects/soundscrate-wood-door-knock-outside-twice-01.mp3"
 n "A second knock can be heard at the door"
 
 cat1 "Your service is most appreciated, place them here Ethel."
@@ -78,7 +82,7 @@ n "The conversation has seemed to attrack the attention of a nearby listner"
 cat1 "Hold on, I think we have an eavesdropper"
 
     # show cat2 sample.png #Mason walks in
-
+play sound "/audio/character/cat/mixkit-angry-cartoon-kitty-meow-94.wav"
 cat1 "You’re not supposed to be drinking that, Mason!" #Sound effect for hiss
 
 cat2 "I knoooow dad, but just this once..."
