@@ -131,7 +131,7 @@ label start: # The game starts here.
     pigeon "So tell me boss, WHO are we investigating?"
     menu:
         "The femme fatale seducing the gentlemen.":
-            pigeon "Wait.....why her?"g
+            pigeon "Wait.....why her?"
             crow "Why not? Women like her tend to lure out the secrets of those they can charm."
             pigeon "She's frightening!"
             play sound "/audio/soundeffects/mixkit-footsteps-on-heels-on-the-pavement-542.wav"
@@ -170,7 +170,7 @@ label start: # The game starts here.
         "We're investigating a place, not a person.":
             pigeon "Oh yes, sorry sir!"
             n "You and Eren take note of the building's interesting features."
-            n "Strahd's manor, which is a humble 500 acres in size, only recenly finished construction two years prior to his retirement party (1887)."
+            n "Strahd's manor, which is a 'humble' 500 acres in size, only recenly finished construction two years prior to his retirement party (1887)."
             n "The architecture can be described as gaudy and flamboyant, which are common characteristics of Gilded Age homes."
             n "Greek statues can be seen just around the gardens of the estate, and the manor boats 15 separate pavillions around the periphery of the home."
             n "Furthermore, it sits just off the coast of Newport, Rhode Island, and the magnificent Atlantic Ocean can be seen from its entrance."
