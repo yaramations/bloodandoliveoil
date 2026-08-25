@@ -131,27 +131,51 @@ label start: # The game starts here.
     pigeon "So tell me boss, WHO are we investigating?"
     menu:
         "The femme fatale seducing the gentlemen.":
-            pigeon "Wait.....why her?"
-            crow "Why not? Women like her tend to use information as a bargaining chip"
+            pigeon "Wait.....why her?"g
+            crow "Why not? Women like her tend to lure out the secrets of those they can charm."
             pigeon "She's frightening!"
             play sound "/audio/soundeffects/mixkit-footsteps-on-heels-on-the-pavement-542.wav"
             n "You and Eren begin walking up to the seductive hyena."
             play sound "/audio/character/hyena/Coyote Call-SoundBible.com-1347099109.mp3"
-            hyena "I’m looking for someone to sweep my chimney, and I like the look of your brush."
-            pigeon "OOOOOOOOOOOh"
-            hyena "I wasn't talking to you..."
+            hyena "I have been looking for someone to sweep my chimney, and I like the look of your brush."
+            n "The flock of guys surrounding her found that *very charming*."
+            crow "Madam, may I borrow you for a minute?"
+            n "She turns her attention towards you."
+            hyena "OOOOOOOOh, an officer..."
+            hyena "Are you gonna arrest me for my crimes against fashion?"
+            crow "We just have some questions we'd like to ask."
+            pigeon "We're doing SERIOUS BUSNIESS THINGS, so you better cooperate."
+            hyena "Oh.."
+            crow "Is something the matter?"
+            hyena "Sorry sirs"
+            hyena "I can't hang out with serious people..."
+            hyena "...I don't want their energy to rub off me."
+            pigeon "(How dare she! I am PLENTY OF FUN!...when I'm not on business of course.)"
+            crow "(Note to self: Have Eren handle her next time...)"
 
-        "The dapper salamander sweet talking other atendees.":
+
+        "The dapper salamander counting the money in his wallet.":
             pigeon "Him? Can we really trust a guy who only cares about money?"
             crow "People like him will pay all the money in the world for information to outwit their competitors."
-    
+            salamander "So, what can I do for you fine gentleman?"
+            crow "Let's make a deal."
+            salamander "OOOOOH straight to the chase! Those are my four favorite words, officer. Let me hear your offer!"
+            crow "Tell me what you know about Strahd, and I won't release your crimes to the public."
+            salamander "Woah woah woah hold your horses..."
+            salamander "I already got hitmen that do that for me."
+            salamander "Poke around any longer, and you'll be next on their list."
+            crow "(I have a feeling antagonizing him won't bode very well for us...)"
+            pigeon "(Geez, so harsh)"
+
         "We're investigating a place, not a person.":
             pigeon "Oh yes, sorry sir!"
             n "You and Eren take note of the building's interesting features."
-            n "Strahd's manor, which is a humble 500 acres in size, only recenly finished construction in 1887."
+            n "Strahd's manor, which is a humble 500 acres in size, only recenly finished construction two years prior to his retirement party (1887)."
             n "The architecture can be described as gaudy and flamboyant, which are common characteristics of Gilded Age homes."
             n "Greek statues can be seen just around the gardens of the estate, and the manor boats 15 separate pavillions around the periphery of the home."
             n "Furthermore, it sits just off the coast of Newport, Rhode Island, and the magnificent Atlantic Ocean can be seen from its entrance."
             n "While these extravagant manors are traditionally used as 'summer cottages' for the extremely wealthy, Strahd intends to make the estate his year-round retirement home."
+            crow "Wow, that was..."
+            crow "pretty useless actually."
 
 return #Game ends
