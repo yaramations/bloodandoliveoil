@@ -1,18 +1,18 @@
-2026-08-25 10:35:44 UTC
+2026-08-25 10:45:18 UTC
 macOS-15.5-arm64-arm-64bit
 Ren'Py 8.4.1.25072401
 
 Early init took 30 ms
 Loading error handling took 17 ms
-Loading script took 69 ms
-Loading save slot metadata took 14 ms
+Loading script took 88 ms
+Loading save slot metadata took 15 ms
 Loading persistent took 0 ms
-Running init code took 24 ms
+Running init code took 25 ms
 Loading analysis data took 2 ms
 Analyze and compile ATL took 1 ms
 Reloading save slot metadata took 4 ms
 Backing up script files to '/Users/1004166/Library/RenPy/backups/BloodAndOliveOil':
-Dump and make backups took 23 ms
+Dump and make backups took 22 ms
 Cleaning cache took 0 ms
 Making clean stores took 0 ms
 Initial gc took 17 ms
@@ -22,11 +22,11 @@ Init translation took 0 ms
 Cleaning stores took 0 ms
 Load screen analysis took 0 ms
 Analyze screens took 5 ms
-Save screen analysis took 6 ms
+Save screen analysis took 7 ms
 Save pyanalysis took 0 ms
-Save bytecode took 16 ms
+Save bytecode took 0 ms
 Running _start took 0 ms
-Interface start took 259 ms
+Interface start took 278 ms
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
