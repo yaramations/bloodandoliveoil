@@ -10,7 +10,7 @@ define hyena = Character("Elizabeth Williams")
 
 define crow = Character("Officer")
 define salamander = Character("Barron Rogers")
-define pigeon = Character("I FORGOR HIS NAME")
+define pigeon = Character("Eren Barnes")
 define ostrich = Character("Ethel Crosswire")
 define n = Character("") #narrarator
 
@@ -100,6 +100,8 @@ play sound "/audio/soundeffects/mixkit-rioting-crowd-376.wav" loop
 with fade
 
 cat1 "Welcome welcome welcome dear guests!"
+crow "(Dammit, I can't see anything with this crowd!)"
+
 cat1 "My name is Carmen Strahd, successful millionaire, olive oil tycoon, and most well groomed feline of the year for five years straight, but you already know that!"
 cat1 "That is why you're here after all. All my family, acquaintances, and business associates all gathered here to honor my life and legacy."
 cat1  "I'm so excited to finally go on retirement!"
@@ -115,4 +117,35 @@ n "Carmen steps awat"
 
 play sound "/audio/soundeffects/soundscrate-wood-door-pounding-outside-5-times-01.mp3"
 cat1 "Ouch...my leg"
+
+pigeon "Officer! You finally made it!"
+crow "and...?"
+pigeon "Why aren't you more excited? We're meeting THE REAL CARMEN STRAHD!"
+pigeon "Do you think he'll sign my copy of his autobiography?"
+crow "I don't care to become reaquainted. I'm just here for the business."
+pigeon "wait...you KNEW HIM!?"
+pigeon "OHGOODNESSPLEASETELLMEEVERYTHINGIMUSTKNOW"
+crow "Just calm down...you know more about him than I do."
+crow "and if you haven't forgotten: we're on A MISSION."
+pigeon "Yes sir! I will be very serious, sir! I will not dissapoint you!"
+crow "Good. We have an investigation to conduct."
+pigeon "So tell me boss, WHO are we investigating?"
+menu:
+    "The femme fatale frolicking seducing the gentlemen."
+        pigeon "Wait.....why her?"
+        crow "Why not? Women like her tend to use information as a bargaining chip"
+        pigeon "She's frightening!"
+        n "You and Eren begin walking up to the seductive hyena."
+        hyena ""
+        hyena ""
+
+    "The dapper salamander sweet talking other atendees."
+        pigeon "Him? Can we really trust a guy who only cares about money?"
+        crow "People like him will pay all the money in the world for information to outwit their competitors."
+    
+    "We're investigating a PLACE, not a person."
+        pigeon "Oh yes, sorry sir!"
+        n ""
+
+
 return #Game ends
