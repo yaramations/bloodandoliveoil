@@ -20,74 +20,72 @@ label start: # The game starts here.
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-scene bg room
+    scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
-
-
 #STORY STARTS
 
 # Raegan's Letter
-play music "/audio/bgost/249_Steampunk_Station.mp3"
+    play music "/audio/bgost/249_Steampunk_Station.mp3"
 # CG of train
-lion "Dear Carmen Strahd,"
-lion "I wish you my warm regards from the new transcontinential railroad."
-lion "Despite not seeing you for years, I appreciate your invitation and look forward to our reunion."
-lion "These past few months have made me bitter, and the sting of the cold brings an omen of uncertianty."
-lion "In the dawn of this new American frontier, I'm afraid I will become outshone by far more suitable business partners."
-lion "You, on the other hand, were always the more suitable businessman."
-lion "I wish I was quicker to discover the profitability of oil in this economy, and I'm grateful you still think of me as your longtime companion."
-lion "You were always considered the savant between the two of us. Utilizing oil made out of olives to power the Industrial Revolution? Genius!"
-lion "This shrewdness of yours has never truly surprised me though, just as one could have easily predicted your early retirement."
-lion "Not many can pass on the business at only 42 years old."
-lion "But alas, we have much more to speak about in person. I will await our next meeting to disclose my latest expidentures."
-lion "In the meantime, I bid you well."
-lion "Sincerely, Raegan Williams"
+    lion "Dear Carmen Strahd,"
+    lion "I wish you my warm regards from the new transcontinential railroad."
+    lion "Despite not seeing you for years, I appreciate your invitation and look forward to our reunion."
+    lion "These past few months have made me bitter, and the sting of the cold brings an omen of uncertianty."
+    lion "In the dawn of this new American frontier, I'm afraid I will become outshone by far more suitable business partners."
+    lion "You, on the other hand, were always the more suitable businessman."
+    lion "I wish I was quicker to discover the profitability of oil in this economy, and I'm grateful you still think of me as your longtime companion."
+    lion "You were always considered the savant between the two of us. Utilizing oil made out of olives to power the Industrial Revolution? Genius!"
+    lion "This shrewdness of yours has never truly surprised me though, just as one could have easily predicted your early retirement."
+    lion "Not many can pass on the business at only 42 years old."
+    lion "But alas, we have much more to speak about in person. I will await our next meeting to disclose my latest expidentures."
+    lion "In the meantime, I bid you well."
+    lion "Sincerely, Raegan Williams"
 
-play music "/audio/bgost/267_Court_of_the_Count.mp3"
-with fade #transitions to prologue
+    play music "/audio/bgost/267_Court_of_the_Count.mp3"
+    with fade #transitions to prologue
 
 
 # Prologue
     # show cat1 sample.png #Strahd in his room
-play sound "/audio/soundeffects/soundscrate-wood-door-knock-outside-twice-01.mp3"
-n "A knock can be heard at the door"
-cat1 "Come in!"
+    play sound "/audio/soundeffects/soundscrate-wood-door-knock-outside-twice-01.mp3"
+    n "A knock can be heard at the door"
+    cat1 "Come in!"
 
     # show lion sample.png #Raegan walks in
 
-cat1 "By golly, it's you!"
-cat1 "So tell me, how have you been, old friend? Was the train kind to you? Can I have Ethel get you anything?"
+    cat1 "By golly, it's you!"
+    cat1 "So tell me, how have you been, old friend? Was the train kind to you? Can I have Ethel get you anything?"
     
-lion "Ah, well I suppose it went as well as any journey could go. My wife Elizabeth found the journey rather uneventful, but you know how she can get. "
-cat1"I still remember my first train ride up the East Coast. My back, how it ached, on and on for nine hours! Thank God the train had plenty of liquor or fate may not have been so kind to me!"
-lion "I’d reckon so, not a journey for the lightweight to say the least."
-lion "Besides the point, why did you ask to meet up with me so soon?"
-cat1 "I need to…make arrangements with you before the retirement party tomorrow."
-lion "In what way?"
+    lion "Ah, well I suppose it went as well as any journey could go. My wife Elizabeth found the journey rather uneventful, but you know how she can get. "
+    cat1"I still remember my first train ride up the East Coast. My back, how it ached, on and on for nine hours! Thank God the train had plenty of liquor or fate may not have been so kind to me!"
+    lion "I’d reckon so, not a journey for the lightweight to say the least."
+    lion "Besides the point, why did you ask to meet up with me so soon?"
+    cat1 "I need to…make arrangements with you before the retirement party tomorrow."
+    lion "In what way?"
 
-play sound "/audio/soundeffects/soundscrate-wood-door-knock-outside-twice-01.mp3"
-n "A second knock can be heard at the door"
+    play sound "/audio/soundeffects/soundscrate-wood-door-knock-outside-twice-01.mp3"
+    n "A second knock can be heard at the door"
 
-cat1 "Your service is most appreciated, place them here Ethel."
+    cat1 "Your service is most appreciated, place them here Ethel."
 
     #CG OF ETHEL AND THE TEACUP GOES HERE
 
-ostrich"Of course, Mister Strahd"
-cat1 "As I was saying, there are still many preparations that need to be made, including my inheritance."
+    ostrich"Of course, Mister Strahd"
+    cat1 "As I was saying, there are still many preparations that need to be made, including my inheritance."
 
-n "The conversation has seemed to attrack the attention of a nearby listner"
-cat1 "Hold on, I think we have an eavesdropper"
+    n "The conversation has seemed to attrack the attention of a nearby listner"
+    cat1 "Hold on, I think we have an eavesdropper"
 
     # show cat2 sample.png #Mason walks in
-play sound "/audio/character/cat/mixkit-angry-cartoon-kitty-meow-94.wav"
-cat1 "You’re not supposed to be drinking that, Mason!" #Sound effect for hiss
+    play sound "/audio/character/cat/mixkit-angry-cartoon-kitty-meow-94.wav"
+    cat1 "You’re not supposed to be drinking that, Mason!" #Sound effect for hiss
 
-cat2 "I knoooow dad, but just this once..."
-cat1 "Absolutely not, put that down young man!"
-cat2 "You simply cannot understand..."
+    cat2 "I knoooow dad, but just this once..."
+    cat1 "Absolutely not, put that down young man!"
+    cat2 "You simply cannot understand..."
 
     #hide cat2
     #hide cat1
@@ -96,60 +94,64 @@ cat2 "You simply cannot understand..."
 
 
 ## CHAPTER 1
-play sound "/audio/soundeffects/mixkit-rioting-crowd-376.wav" loop
-with fade
+    play sound "/audio/soundeffects/mixkit-rioting-crowd-376.wav" loop
+    with fade
 
-cat1 "Welcome welcome welcome dear guests!"
-crow "(Dammit, I can't see anything with this crowd!)"
+    cat1 "Welcome welcome welcome dear guests!"
+    crow "(Dammit, I can't see anything with this crowd!)"
 
-cat1 "My name is Carmen Strahd, successful millionaire, olive oil tycoon, and most well groomed feline of the year for five years straight, but you already know that!"
-cat1 "That is why you're here after all. All my family, acquaintances, and business associates all gathered here to honor my life and legacy."
-cat1  "I'm so excited to finally go on retirement!"
-cat1 "However, before the celebrations can begin, I need to make some preparations."
-cat1 "..."
-cat1 "Particularly those concerning...my inheritance"
+    cat1 "My name is Carmen Strahd, successful millionaire, olive oil tycoon, and most well groomed feline of the year for five years straight, but you already know that!"
+    cat1 "That is why you're here after all. All my family, acquaintances, and business associates all gathered here to honor my life and legacy."
+    cat1  "I'm so excited to finally go on retirement!"
+    cat1 "However, before the celebrations can begin, I need to make some preparations."
+    cat1 "..."
+    cat1 "Particularly those concerning...my inheritance"
 
-stop sound
-n "A hush falls over the once lively crowd"
+    stop sound
+    n "A hush falls over the once lively crowd"
 
-cat1 "Well well it won't be long, and I'll make sure everybody gets a piece of the pie!"
-n "Carmen steps awat"
+    cat1 "Well well it won't be long, and I'll make sure everybody gets a piece of the pie!"
+    n "Carmen steps awat"
 
-play sound "/audio/soundeffects/soundscrate-wood-door-pounding-outside-5-times-01.mp3"
-cat1 "Ouch...my leg"
+    play sound "/audio/soundeffects/soundscrate-wood-door-pounding-outside-5-times-01.mp3"
+    cat1 "Ouch...my leg"
 
-pigeon "Officer! You finally made it!"
-crow "and...?"
-pigeon "Why aren't you more excited? We're meeting THE REAL CARMEN STRAHD!"
-pigeon "Do you think he'll sign my copy of his autobiography?"
-crow "I don't care to become reaquainted. I'm just here for the business."
-pigeon "wait...you KNEW HIM!?"
-pigeon "OHGOODNESSPLEASETELLMEEVERYTHINGIMUSTKNOW"
-crow "Just calm down...you know more about him than I do."
-crow "and if you haven't forgotten: we're on A MISSION."
-pigeon "Yes sir! I will be very serious, sir! I will not dissapoint you!"
-crow "Good. We have an investigation to conduct."
-pigeon "So tell me boss, WHO are we investigating?"
+    pigeon "Officer! You finally made it!"
+    crow "and...?"
+    pigeon "Why aren't you more excited? We're meeting THE REAL CARMEN STRAHD!"
+    pigeon "Do you think he'll sign my copy of his autobiography?"
+    crow "I don't care to become reaquainted. I'm just here for the business."
+    pigeon "wait...you KNEW HIM!?"
+    pigeon "OHGOODNESSPLEASETELLMEEVERYTHINGIMUSTKNOW"
+    crow "Just calm down...you know more about him than I do."
+    crow "and if you haven't forgotten: we're on A MISSION."
+    pigeon "Yes sir! I will be very serious, sir! I will not dissapoint you!"
+    crow "Good. We have an investigation to conduct."
 
-menu:
-    "The femme fatale frolicking seducing the gentlemen."
-        pigeon "Wait.....why her?"
-        crow "Why not? Women like her tend to use information as a bargaining chip"
-        pigeon "She's frightening!"
-        play sound "/audio/soundeffects/mixkit-footsteps-on-heels-on-the-pavement-542.wav"
-        n "You and Eren begin walking up to the seductive hyena."
-        play sound "/audio/character/hyena/Coyote Call-SoundBible.com-1347099109.mp3"
-        hyena "I’m looking for someone to sweep my chimney, and I like the look of your brush."
-        pigeon "OOOOOOOOOOOh"
-        hyena "I wasn't talking to you..."
+    pigeon "So tell me boss, WHO are we investigating?"
+    menu:
+        "The femme fatale seducing the gentlemen."
+            pigeon "Wait.....why her?"
+            crow "Why not? Women like her tend to use information as a bargaining chip"
+            pigeon "She's frightening!"
+            play sound "/audio/soundeffects/mixkit-footsteps-on-heels-on-the-pavement-542.wav"
+            n "You and Eren begin walking up to the seductive hyena."
+            play sound "/audio/character/hyena/Coyote Call-SoundBible.com-1347099109.mp3"
+            hyena "I’m looking for someone to sweep my chimney, and I like the look of your brush."
+            pigeon "OOOOOOOOOOOh"
+            hyena "I wasn't talking to you..."
 
-    "The dapper salamander sweet talking other atendees."
-        pigeon "Him? Can we really trust a guy who only cares about money?"
-        crow "People like him will pay all the money in the world for information to outwit their competitors."
+        "The dapper salamander sweet talking other atendees."
+            pigeon "Him? Can we really trust a guy who only cares about money?"
+            crow "People like him will pay all the money in the world for information to outwit their competitors."
     
-    "We're investigating a place, not a person."
-        pigeon "Oh yes, sorry sir!"
-        n ""
-
+        "We're investigating a place, not a person."
+            pigeon "Oh yes, sorry sir!"
+            n "You and Eren take note of the building's interesting features."
+            n "Strahd's manor, which is a humble 500 acres in size, only recenly finished construction in 1887."
+            n "The architecture can be described as gaudy and flamboyant, which are common characteristics of Gilded Age homes."
+            n "Greek statues can be seen just around the gardens of the estate, and the manor boats 15 separate pavillions around the periphery of the home."
+            n "Furthermore, it sits just off the coast of Newport, Rhode Island, and the magnificent Atlantic Ocean can be seen from its entrance."
+            n "While these extravagant manors are traditionally used as 'summer cottages' for the extremely wealthy, Strahd intends to make the estate his year-round retirement home."
 
 return #Game ends

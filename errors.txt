@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/options.rpy", line 82: invalid syntax
-    with fade
-    ^^^^
-
-File "game/options.rpy", line 85: invalid syntax
-    with fade
-    ^^^^
+File "game/script.rpy", line 133: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "The femme fatale seducing the gentlemen."
+                                              ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Tue Aug 25 13:20:01 2026
+Tue Aug 25 23:57:05 2026
