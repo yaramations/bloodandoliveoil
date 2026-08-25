@@ -1,5 +1,5 @@
 ﻿#Transitions defined 
-define fade = Fade(0.5, 4, 0.5) #Transition to prologue
+define fade = Fade(0.5, 3, 0.5) #Transition to prologue
 
 # CHARACTERS DEFINED
 define cat1 = Character("Carmen Strahd")
@@ -65,7 +65,7 @@ lion "Ah, well I suppose it went as well as any journey could go. My wife Elizab
 cat1"I still remember my first train ride up the East Coast. My back, how it ached, on and on for nine hours! Thank God the train had plenty of liquor or fate may not have been so kind to me!"
 lion "I’d reckon so, not a journey for the lightweight to say the least."
 lion "Besides the point, why did you ask to meet up with me so soon?"
-cat1 "I need to… make arrangements with you before the retirement party tomorrow."
+cat1 "I need to…make arrangements with you before the retirement party tomorrow."
 lion "In what way?"
 
 play sound "/audio/soundeffects/soundscrate-wood-door-knock-outside-twice-01.mp3"
@@ -94,4 +94,25 @@ cat2 "You simply cannot understand..."
     #hide lion
     #hide ostrich
 
+
+## CHAPTER 1
+play sound "/audio/soundeffects/mixkit-rioting-crowd-376.wav" loop
+with fade
+
+cat1 "Welcome welcome welcome dear guests!"
+cat1 "My name is Carmen Strahd, successful millionaire, olive oil tycoon, and most well groomed feline of the year for five years straight, but you already know that!"
+cat1 "That is why you're here after all. All my family, acquaintances, and business associates all gathered here to honor my life and legacy."
+cat1  "I'm so excited to finally go on retirement!"
+cat1 "However, before the celebrations can begin, I need to make some preparations."
+cat1 "..."
+cat1 "Particularly those concerning...my inheritance"
+
+stop sound
+n "A hush falls over the once lively crowd"
+
+cat1 "Well well it won't be long, and I'll make sure everybody gets a piece of the pie!"
+n "Carmen steps awat"
+
+play sound "/audio/soundeffects/soundscrate-wood-door-pounding-outside-5-times-01.mp3"
+cat1 "Ouch...my leg"
 return #Game ends
