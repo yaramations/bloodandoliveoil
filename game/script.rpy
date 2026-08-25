@@ -130,20 +130,24 @@ crow "and if you haven't forgotten: we're on A MISSION."
 pigeon "Yes sir! I will be very serious, sir! I will not dissapoint you!"
 crow "Good. We have an investigation to conduct."
 pigeon "So tell me boss, WHO are we investigating?"
+
 menu:
     "The femme fatale frolicking seducing the gentlemen."
         pigeon "Wait.....why her?"
         crow "Why not? Women like her tend to use information as a bargaining chip"
         pigeon "She's frightening!"
+        play sound "/audio/soundeffects/mixkit-footsteps-on-heels-on-the-pavement-542.wav"
         n "You and Eren begin walking up to the seductive hyena."
-        hyena ""
-        hyena ""
+        play sound "/audio/character/hyena/Coyote Call-SoundBible.com-1347099109.mp3"
+        hyena "I’m looking for someone to sweep my chimney, and I like the look of your brush."
+        pigeon "OOOOOOOOOOOh"
+        hyena "I wasn't talking to you..."
 
     "The dapper salamander sweet talking other atendees."
         pigeon "Him? Can we really trust a guy who only cares about money?"
         crow "People like him will pay all the money in the world for information to outwit their competitors."
     
-    "We're investigating a PLACE, not a person."
+    "We're investigating a place, not a person."
         pigeon "Oh yes, sorry sir!"
         n ""
 
