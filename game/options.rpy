@@ -4,7 +4,6 @@
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
 ## may want to uncomment them when appropriate.
 
-
 ## Basics ######################################################################
 
 ## A human-readable name of the game. This is used to set the default window
@@ -53,16 +52,12 @@ define config.has_voice = True
 
 ## To allow the user to play a test sound on the sound or voice channel,
 ## uncomment a line below and use it to set a sample sound to play.
+#define config.sample_sound = "/audio/character/cat/mixkit-sweet-kitty-meow-93.wav"
+define config.sample_voice = "/audio/character/cat/mixkit-sweet-kitty-meow-93.wav"
 
-# define config.sample_sound = "sample-sound.ogg"
-# define config.sample_voice = "sample-voice.ogg"
 
-
-## Uncomment the following line to set an audio file that will be played while
-## the player is at the main menu. This file will continue playing into the
-## game, until it is stopped or another file is played.
-
-# define config.main_menu_music = "main-menu-theme.ogg"
+## Uncomment the following line to set an audio file that will be played while the player is at the main menu. This file will continue playing into the game, until it is stopped or another file is played.
+define config.main_menu_music = "/audio/bgost/431_Hotel_Noir.mp3"
 
 
 ## Transitions #################################################################
