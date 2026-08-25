@@ -130,7 +130,7 @@ label start: # The game starts here.
 
     pigeon "So tell me boss, WHO are we investigating?"
     menu:
-        "The femme fatale seducing the gentlemen."
+        "The femme fatale seducing the gentlemen.":
             pigeon "Wait.....why her?"
             crow "Why not? Women like her tend to use information as a bargaining chip"
             pigeon "She's frightening!"
@@ -141,11 +141,11 @@ label start: # The game starts here.
             pigeon "OOOOOOOOOOOh"
             hyena "I wasn't talking to you..."
 
-        "The dapper salamander sweet talking other atendees."
+        "The dapper salamander sweet talking other atendees.":
             pigeon "Him? Can we really trust a guy who only cares about money?"
             crow "People like him will pay all the money in the world for information to outwit their competitors."
     
-        "We're investigating a place, not a person."
+        "We're investigating a place, not a person.":
             pigeon "Oh yes, sorry sir!"
             n "You and Eren take note of the building's interesting features."
             n "Strahd's manor, which is a humble 500 acres in size, only recenly finished construction in 1887."
