@@ -52,9 +52,8 @@ define config.has_voice = True
 
 ## To allow the user to play a test sound on the sound or voice channel,
 ## uncomment a line below and use it to set a sample sound to play.
-#define config.sample_sound = "/audio/character/cat/mixkit-sweet-kitty-meow-93.wav"
+define config.sample_sound = "/audio/soundeffects/mixkit-trailer-screaming-people-annihilation-351.wav"
 define config.sample_voice = "/audio/character/cat/mixkit-sweet-kitty-meow-93.wav"
-
 
 ## Uncomment the following line to set an audio file that will be played while the player is at the main menu. This file will continue playing into the game, until it is stopped or another file is played.
 define config.main_menu_music = "/audio/bgost/431_Hotel_Noir.mp3"
