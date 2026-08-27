@@ -12,7 +12,10 @@ define crow = Character("Officer")
 define salamander = Character("Barron Rogers")
 define pigeon = Character("Eren Barnes")
 define ostrich = Character("Ethel Crosswire")
+define olive = Character("The Olive Man")
+
 define n = Character("") #narrarator
+define a = Character("All")
 
 
 label start: # The game starts here.
@@ -153,6 +156,20 @@ label start: # The game starts here.
             pigeon "(How dare she! I am PLENTY OF FUN!...when I'm not on business of course.)"
             crow "(Note to self: Have Eren handle her next time...)"
 
+        "The man in (what appears to be) an olive costume":
+            pigeon "Why do you want to talk to that weirdo?"
+            crow "I don't know, but he looks pretty interesting."
+            olive "Do you guys happen to be friends of Strahd..?"
+            crow "We've been aquainted"
+            olive "Well, I think you should DITCH HIM!"
+            pigeon "Why?"
+            olive "Back in 1867, Strahd commited a most heinous sin against me"
+            crow "Well, what did he do?"
+            olive "He BUMPED me on a stairwell!"
+            olive "Do you believe the AUDACITY of some people!?"
+            crow "Sounds good sir, goodbye"
+            pigeon "Why did you end the conversation so quickly?"
+            crow "I think he had too much liquor..."
 
         "The dapper salamander counting the money in his wallet.":
             pigeon "Him? Can we really trust a guy who only cares about money?"
@@ -177,5 +194,11 @@ label start: # The game starts here.
             n "While these extravagant manors are traditionally used as 'summer cottages' for the extremely wealthy, Strahd intends to make the estate his year-round retirement home."
             crow "Wow, that was..."
             crow "pretty useless actually."
+
+    pigeon "OFFICER, LOOK!"
+    pigeon "Strahd is about to start"
+    # renpy.movie_cutscene("On_Your_Mark.webm")
+    play sound "/audio/soundeffects/mixkit-trailer-screaming-people-annihilation-351.wav"
+    a "AAAAAAAAAAAAAAAAH!"
 
 return #Game ends

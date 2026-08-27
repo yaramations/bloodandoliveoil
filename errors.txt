@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 133: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "The femme fatale seducing the gentlemen."
-                                              ^
+File "game/script.rpy", line 182: Only one say menuitem may exist per menu.
+    pigeon "Strahd is about to start his speech!"
+                                                 ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Tue Aug 25 23:57:51 2026
+Thu Aug 27 16:10:20 2026
