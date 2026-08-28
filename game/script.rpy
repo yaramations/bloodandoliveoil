@@ -200,7 +200,9 @@ label start: # The game starts here.
 
     pigeon "OFFICER, LOOK!"
     pigeon "Strahd is about to start"
-    # renpy.movie_cutscene("On_Your_Mark.webm")
+    crow "Something doesn't look right..."
+
+    $ renpy.movie_cutscene("/images/bodyreveal.webm")
     play sound "/audio/soundeffects/mixkit-trailer-screaming-people-annihilation-351.wav"
     a "AAAAAAAAAAAAAAAAH!"
 

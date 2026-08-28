@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 182: Only one say menuitem may exist per menu.
-    pigeon "Strahd is about to start his speech!"
-                                                 ^
+File "game/script.rpy", line 208: expected statement.
+    3
+     ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Thu Aug 27 16:10:20 2026
+Fri Aug 28 15:07:50 2026

@@ -1,32 +1,32 @@
-2026-08-27 20:30:14 UTC
+2026-08-28 19:10:14 UTC
 macOS-15.5-arm64-arm-64bit
 Ren'Py 8.4.1.25072401
 
-Early init took 42 ms
-Loading error handling took 22 ms
-Loading script took 134 ms
-Loading save slot metadata took 25 ms
+Early init took 30 ms
+Loading error handling took 16 ms
+Loading script took 93 ms
+Loading save slot metadata took 19 ms
 Loading persistent took 0 ms
-Running init code took 36 ms
-Loading analysis data took 3 ms
+Running init code took 24 ms
+Loading analysis data took 2 ms
 Analyze and compile ATL took 1 ms
-Reloading save slot metadata took 8 ms
+Reloading save slot metadata took 7 ms
 Backing up script files to '/Users/1004166/Library/RenPy/backups/bloodandoliveoil':
-Dump and make backups took 42 ms
+Dump and make backups took 23 ms
 Cleaning cache took 0 ms
 Making clean stores took 0 ms
-Initial gc took 32 ms
+Initial gc took 17 ms
 DPI scale factor: 1.000000
-Creating interface object took 1 ms
+Creating interface object took 0 ms
 Init translation took 0 ms
 Cleaning stores took 0 ms
 Load screen analysis took 0 ms
-Analyze screens took 9 ms
-Save screen analysis took 12 ms
+Analyze screens took 5 ms
+Save screen analysis took 6 ms
 Save pyanalysis took 0 ms
-Save bytecode took 29 ms
-Running _start took 1 ms
-Interface start took 1713 ms
+Save bytecode took 16 ms
+Running _start took 0 ms
+Interface start took 371 ms
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -38,7 +38,15 @@ Version: '2.1 Metal - 89.4'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1440, 'current_h': 900, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
 Screen sizes: virtual=(1920, 1080) physical=(889, 500) drawable=(1778, 1000)
 Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1091, 650) drawable=(2182, 1300)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1186, 573) drawable=(2372, 1146)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1186, 511) drawable=(2372, 1022)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1189, 671) drawable=(2378, 1342)
+Maximum texture size: 4096x4096
 Cleaning stores took 0 ms
-Load screen analysis took 72 ms
+Load screen analysis took 23 ms
 Analyze screens took 0 ms
-Running _start took 8 ms
+Running _start took 2 ms
