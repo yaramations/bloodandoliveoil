@@ -97,6 +97,7 @@ label start: # The game starts here.
 
 
 ## CHAPTER 1
+    play music "/audio/bgost/439_Goodhaven.mp3"
     play sound "/audio/soundeffects/mixkit-rioting-crowd-376.wav" loop
     with fade
 
@@ -111,10 +112,12 @@ label start: # The game starts here.
     cat1 "Particularly those concerning...my inheritance"
 
     stop sound
+    play sound "/audio/soundeffects/mixkit-male-conspiracy-voices-whispers-302.wav"
+
     n "A hush falls over the once lively crowd"
 
     cat1 "Well well it won't be long, and I'll make sure everybody gets a piece of the pie!"
-    n "Carmen steps awat"
+    n "Carmen steps away"
 
     play sound "/audio/soundeffects/soundscrate-wood-door-pounding-outside-5-times-01.mp3"
     cat1 "Ouch...my leg"
@@ -189,7 +192,7 @@ label start: # The game starts here.
             n "You and Eren take note of the building's interesting features."
             n "Strahd's manor, which is a 'humble' 500 acres in size, only recenly finished construction two years prior to his retirement party (1887)."
             n "The architecture can be described as gaudy and flamboyant, which are common characteristics of Gilded Age homes."
-            n "Greek statues can be seen just around the gardens of the estate, and the manor boats 15 separate pavillions around the periphery of the home."
+            n "Greek statues can be seen just around the gardens of the estate, and the manor boats 5 separate pavillions surrounding the periphery of the home."
             n "Furthermore, it sits just off the coast of Newport, Rhode Island, and the magnificent Atlantic Ocean can be seen from its entrance."
             n "While these extravagant manors are traditionally used as 'summer cottages' for the extremely wealthy, Strahd intends to make the estate his year-round retirement home."
             crow "Wow, that was..."
