@@ -204,6 +204,13 @@ label start: # The game starts here.
 
     $ renpy.movie_cutscene("/images/bodyreveal.webm")
     play sound "/audio/soundeffects/mixkit-trailer-screaming-people-annihilation-351.wav"
+
+    # Chapter 2 begins
     a "AAAAAAAAAAAAAAAAH!"
+    crow "STRAHD!"
+    pigeon "ohmygoshhe'sdead"
+    salamander "What in the blazes?"
+    ostrich "How unsightly!"
+    hyena "euuughhhhhh"
 
 return #Game ends
