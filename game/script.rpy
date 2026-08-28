@@ -18,6 +18,7 @@ define n = Character("") #narrarator
 define a = Character("All")
 define m = Character("Bystanding Man")
 define f = Character("Bystanding Woman")
+define b = Character("Bodyguard")
 
 
 label start:
@@ -207,7 +208,7 @@ label start:
     play sound "/audio/soundeffects/mixkit-rioting-crowd-376.wav"
     hyena "Oh MY GOSH. Why is it taking this man forever?"
     lion "Honey, please. Give him some time."
-    a "After waiting for another 15 minutes, the crowd begins to get restless."
+    a "After waiting for another fifteen minutes, the crowd begins to get restless."
     m "Oh by golly I am SICK and TIRED of waiting for this senile old man!"
     pigeon "Hey! He's only 42!"
     f "Well I don't care just BRING HIM OUT!"
@@ -218,11 +219,38 @@ label start:
     play sound "/audio/soundeffects/mixkit-trailer-screaming-people-annihilation-351.wav"
 
     # Chapter 2 begins
+    play music "/audio/bgost/404_Vampyr.mp3"
     a "AAAAAAAAAAAAAAAAH!"
     crow "STRAHD!"
     pigeon "ohmygoshhe'sdead"
     salamander "What in the blazes?"
     ostrich "How unsightly!"
     hyena "euuughhhhhh"
+    crow "Quick! I have to deescalate the situation!"
+        menu:
+            "Yell at the crowd to exit in an orderly fashion."
+                crow "EVERYBODY!"
+                crow "Please exit in an ORDERLY FASHION."
+                m "Who put YOU in charge?"
+                b "GET OUT, you scrawny bird"
+                crow "That was rather rude, sir."
+                b "I don't want to hear it, come back tomorrow!"
+                crow "Well, I'll be back then."
+            "Slip away quietly as the room descalates."
+                crow "Gotta hurry out"
+                pigeon "Officer, wait!"
+                crow "Let's slip out of the crowd first."
+                a "After making it outside, the both of you begin planning."
+                b "Is something the matter, sirs?"
+                crow "No, thank you."
+                b "Unfortunately, we are asking everybody to leave until tomorrow. Then, we will open our doors for investigation."
+                crow "Sounds good, thank you."
+            "Go up to the body"
+                crow "I need to see what's going on, NOW."
+                ostrich "I am afraid you cannot, officer."
+                crow "How come? Who gave you the authority?"
+                ostrich "Strahd's bodyguards are closing off the area. You and the police force will be able to investigate tommorrow."
+                crow "Guess I have no choice but to wait it out..."
+
 
 return #Game ends
