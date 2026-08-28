@@ -16,9 +16,11 @@ define olive = Character("The Olive Man")
 
 define n = Character("") #narrarator
 define a = Character("All")
+define m = Character("Bystanding Man")
+define f = Character("Bystanding Woman")
 
 
-label start: # The game starts here.
+label start:
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
@@ -66,7 +68,7 @@ label start: # The game starts here.
     cat1"I still remember my first train ride up the East Coast. My back, how it ached, on and on for nine hours! Thank God the train had plenty of liquor or fate may not have been so kind to me!"
     lion "I’d reckon so, not a journey for the lightweight to say the least."
     lion "Besides the point, why did you ask to meet up with me so soon?"
-    cat1 "I need to…make arrangements with you before the retirement party tomorrow."
+    cat1 "I need to make arrangements with you before the retirement party tomorrow."
     lion "In what way?"
 
     play sound "/audio/soundeffects/soundscrate-wood-door-knock-outside-twice-01.mp3"
@@ -199,8 +201,18 @@ label start: # The game starts here.
             crow "pretty useless actually."
 
     pigeon "OFFICER, LOOK!"
-    pigeon "Strahd is about to start"
-    crow "Something doesn't look right..."
+    pigeon "Strahd is about to start! We need to go into the entrance hall!"
+    a "The guests find themselves cramming into one another through the doors, finally making it into the entrance hall."
+    pigeon "There are so many people here"
+    play sound "/audio/soundeffects/mixkit-rioting-crowd-376.wav"
+    hyena "Oh MY GOSH. Why is it taking this man forever?"
+    lion "Honey, please. Give him some time."
+    a "After waiting for another 15 minutes, the crowd begins to get restless."
+    m "Oh by golly I am SICK and TIRED of waiting for this senile old man!"
+    pigeon "Hey! He's only 42!"
+    f "Well I don't care just BRING HIM OUT!"
+    a "..."
+    crow "Hold on, something doesn't look right..."
 
     $ renpy.movie_cutscene("/images/bodyreveal.webm")
     play sound "/audio/soundeffects/mixkit-trailer-screaming-people-annihilation-351.wav"
